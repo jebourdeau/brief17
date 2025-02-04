@@ -32,3 +32,8 @@ jobs:
       
     - name: Run tests
       run: mvn test
+
+    - name: SonarQube Scan
+      env: 
+        SONAR_TOKEN: ${{secret?SONAR_TOKEN}}
+      run: mvn sonar:sonar -Dsonar.projectKey=brief17 -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=${{secrets.SONAR_TOKEN}}
