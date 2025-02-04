@@ -8,4 +8,4 @@ Vous devrez d'abord configurer l'application pour les tests grâce au fichier ap
 
 ## Utilisation de la CI Github pour lancer le test d'intégration
 
-Vous implémenterez une CI github pour lancer les tests de l'application.
+Vous implémenterez une CI github pour lancer les tests de l'application.# brief17
